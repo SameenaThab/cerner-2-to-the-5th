@@ -1,0 +1,20 @@
+<!–– day 4 cerner_2^5_2018 ––>
+<!DOCTYPE html>
+<html>
+<body>
+First name: <input id="fn" type="text" name="FirstName" value="Mickey"><br>
+Last name: <input id="ln" type="text" name="LastName" value="Mouse"><br>
+<input type="submit" onclick="myFunction()" value="Submit">
+</form>
+
+<p id="demo"></p>
+<script>
+function myFunction() {
+var a = document.getElementById("fn").value;
+var b = document.getElementById("ln").value;
+var x = "Hello"+" "+a+" "+b;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+</body>
+</html>
